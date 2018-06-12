@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义仪表盘-->
+    <declare-styleable name="MyDashBoard">
+        <attr name="dashProgress" format="dimension" />
+        <attr name="dashColor" format="color" />
+        <attr name="dashProColor" format="color" />
+        <attr name="dashWidth" format="dimension" />
+        <attr name="dashLength" format="dimension" />
+        <attr name="degrees" format="dimension" />
+        <attr name="dashStartAngle" format="dimension" />
+        <attr name="ringWidth" format="dimension" />
+        <attr name="ringStartAngle" format="dimension" />
+        <attr name="radius" format="dimension" />
+        <attr name="sweepAngle" format="dimension" />
+        <attr name="dashIcon" format="reference" />
+        <attr name="dashTextSize" format="dimension" />
+    </declare-styleable>
+
+    <!--自定义进度条-->
+    <declare-styleable name="MyProgress">
+        <attr name="defaultColor" format="color" />
+        <attr name="progressWidth" format="dimension" />
+    </declare-styleable>
+</resources>
